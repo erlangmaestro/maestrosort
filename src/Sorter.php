@@ -20,6 +20,7 @@ class Sorter {
 		
 		while($swapped)
 		{
+		    $swapped = false;
 			for($i = 0; $i < count($list) - 1; $i++)
 			{
 				if($list[$i] > $list[$i + 1])
@@ -27,6 +28,7 @@ class Sorter {
 					$temp = $list[$i];
 					$list[$i]= $list[$i + 1];
 					$list[$i + 1] = $temp;
+					$swapped = true;
 				}
 			}
 		}		
