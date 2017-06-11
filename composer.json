@@ -1,6 +1,6 @@
 {
     "name": "erlangmaestro/maestrosort",
-    "description": "Simple php bubble sort implementation.",
+    "description": "Simple PHP bubble sort implementation.",
     "type": "library",
     "license": "MIT",
     "authors": [
