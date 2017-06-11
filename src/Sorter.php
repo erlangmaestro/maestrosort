@@ -2,9 +2,18 @@
 
 namespace MaestroSort;
 
-
+/**
+ * Contains useful static sorting methods.
+ *
+ * @package MaestroSort
+ */
 class Sorter {
-	
+
+    /**
+     * Performs a bubble sort on the array.
+     *
+     * @param array $list the array to be sorted
+     */
 	public static function sort($list)
 	{
 		$swapped = true;
@@ -17,7 +26,7 @@ class Sorter {
 				{
 					$temp = $list[$i];
 					$list[$i]= $list[$i + 1];
-					$list[$i + 1] = temp;					
+					$list[$i + 1] = $temp;
 				}
 			}
 		}		
