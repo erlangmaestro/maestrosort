@@ -1,0 +1,18 @@
+{
+    "name": "erlangmaestro/maestrosort",
+    "description": "Simple php bubble sort implementation.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Markov",
+            "email": "alexandermarkov@live.co.uk"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MaestroSort\\": "src/"
+        }
+    }
+}
