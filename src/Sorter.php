@@ -12,12 +12,13 @@ class Sorter {
     /**
      * Performs a bubble sort on the array.
      *
-     * @param array $list the array to be sorted
+     * @param array $list   the array to be sorted
+     * @return array        the sorted array
      */
 	public static function sort($list)
 	{
 		$swapped = true;
-		
+
 		while($swapped)
 		{
 		    $swapped = false;
@@ -31,7 +32,8 @@ class Sorter {
 					$swapped = true;
 				}
 			}
-		}		
+		}
+		return $list;
 	}	
 }
 
